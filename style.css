@@ -138,17 +138,20 @@ body{
 }
 
 
-@keyframes back-change{
-   0%{
-background: linear-gradient(to top, #231b50, #231b50, #31396b, #242627);
-   }
-   50%{
-
-background:linear-gradient(to top, #231b50, #231b50, #333d77, #242627)
-   }
-   100%{
-   	background:linear-gradient(to top, #231b50, #231b50, #334198, #242627);
-   }
+@keyframes back-change{  
+    0%{
+        background: linear-gradient(to top, #231b50, #231b50, #31396b, #242627);
+           }
+           50%{
+        
+        background:linear-gradient(to top, #231b50, #231b50, #333d77, #242627)
+           }
+           100%{
+               background:linear-gradient(to top, #231b50, #231b50, #334198, #242627);
+           }
+}
+  
+   
 
 @media only screen and (min-width:940px) and (max-width:1070px){
     #logo{
@@ -169,6 +172,10 @@ background:linear-gradient(to top, #231b50, #231b50, #333d77, #242627)
 @media only screen and (max-width:801px){
     header, main{
         height: auto;
+    }
+    #logop{
+        width: 100%;
+        text-align: center;
     }
     #logo{
         width: 100%;
@@ -204,4 +211,6 @@ background:linear-gradient(to top, #231b50, #231b50, #333d77, #242627)
     nav{
         display: none;
     
+}
+
 }
